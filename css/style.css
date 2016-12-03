@@ -1,0 +1,42 @@
+/*common styles*/
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+
+/*main styles*/
+
+.container {
+	max-width: 1030px;
+}
+
+/* Promo Part */
+.promo { width:100%; height:630px; border-top:1px solid #c4c7cb; background:url(../images/header_bg_back.jpg) no-repeat top center; }
+#parallax { position:relative; margin:0 auto; overflow:hidden; height:630px; width:100%; background: url(../images/header_bg.jpg) no-repeat center top !important; }
+#parallax .bg1 { width:1602px; height:603px; background: url(../images/drops_bg_up.png) no-repeat 0 0; }
+#parallax .bg2 { width:1602px; height:603px; background: url(../images/drops_bg_back.png) no-repeat 0 0; }
+#parallax .sloganBox { width:1200px; position:absolute; left:50%; height:630px; margin-left:-600px; }
+#parallax .slogan1 { width:1002px; height:410px; background: url(../images/text_yonlendiriyoruz_bg.png) no-repeat left 50px ; }
+#parallax .slogan2 { width:1120px; height:450px; background: url(../images/text_uretiyoruz_bg.png) no-repeat right top; }
+#parallax .slogan3  { width:1102px; height:500px; background: url(../images/text_vesonra_bg.png) no-repeat right bottom; }
+.parallax-viewport { position: relative; overflow: hidden; }
+.parallax-layer { position: absolute; }
+
+.promoSlogan { float:left; position:relative; width:960px; position:relative; color:#8a8a8a; margin:0 auto; margin-top:50px; padding-top:7px; background-image:url(../images/promo_blockquote_bg.gif), url(../images/promo_blockquote_bg_2.gif); background-position:left center, right center; background-repeat:no-repeat; }
+.promoSlogan p { font-size:21px; line-height:30px; color:#8a8a8a; text-align:left; font-family:'FuturaStdLightTrRegular'; margin-left:42px; }
+.promoSlogan p em { font-family:'FuturaStdBookTrRegular'; font-style:normal; }
+/* //Promo Part */
+
+
+
+
+
+
+
